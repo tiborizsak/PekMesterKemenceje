@@ -1,0 +1,29 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  #bg {
+    /* The image used */
+    background-image: url("T:/T/IWP/WD/pekmk/pmk_welcome_animation/asset/img/bg2.jpeg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-color: #faf5e1;
+    /*opacity: 1;*/
+  }
+
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
