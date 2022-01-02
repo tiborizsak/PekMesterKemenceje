@@ -1576,12 +1576,12 @@ textarea:-ms-input-placeholder {
 /*  03-footer
 /*----------------------------------------*/
 .footer_widgets {
-  background: #2b4174;
+  background: #10652e;
 }
 
 .main_footer {
-  border-top: 1px solid #425788;
-  border-bottom: 1px solid #425788;
+  border-top: 1px solid #ff771c;
+  border-bottom: 1px solid #ff771c;
   padding: 60px 0;
 }
 @media only screen and (max-width: 575px) {
@@ -1606,7 +1606,7 @@ textarea:-ms-input-placeholder {
 .footer_list_width {
   margin-right: 55px;
   padding-right: 55px;
-  border-right: 1px solid #425788;
+  border-right: 1px solid #ff771c;
 }
 .footer_list_width:last-child {
   margin-right: 0;
