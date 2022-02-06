@@ -12,12 +12,3 @@ function bgOpacity(){
         }, 70) //timeout length
         })(7); //number of iterations
 }
-    //for(i=0; i <= 9; i++){
-        //opacity = parseFloat(opacity - opacitystep).toFixed(1);
-        //alert(opacity);
-        //document.getElementById("bg").style.opacity = opacity;
-    //}
-
-    //setTimeout(function(){document.getElementById("bg").style.opacity = opacity;}, 5000);
-
-    //alert(opacity);

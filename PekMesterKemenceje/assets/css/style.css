@@ -983,7 +983,7 @@ textarea:-ms-input-placeholder {
   top: 100%;
 }
 .main_menu nav > ul > li:hover > a {
-  color: #ffffff;
+  color: coral;
 }
 .main_menu nav > ul > li:hover > a::before {
   opacity: 1;
@@ -1001,7 +1001,7 @@ textarea:-ms-input-placeholder {
   padding-bottom: 35px;
 }
 .main_menu nav > ul > li > a.active {
-  color: #ffffff;
+  color: coral;
 }
 .main_menu nav > ul > li > a.active::before {
   opacity: 1;
@@ -1010,7 +1010,6 @@ textarea:-ms-input-placeholder {
 .main_menu nav > ul > li > a::before {
   position: absolute;
   content: "";
-  background: url(../img/others/menu_shape.png);
   background-repeat: repeat-y;
   left: 50%;
   top: 50%;
@@ -1023,6 +1022,9 @@ textarea:-ms-input-placeholder {
   visibility: hidden;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  border-style: none none solid none;
+  border-width: 7px;
+  border-color: coral;
 }
 .main_menu nav > ul > li ul.bucker-dropdown {
   position: absolute;
